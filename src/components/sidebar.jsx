@@ -63,6 +63,7 @@ import { SiVirustotal } from "react-icons/si";
 import { SiApachekafka } from "react-icons/si";
 import { SiNetlify } from "react-icons/si";
 import { SiContentful } from "react-icons/si";
+import { SiDeno } from "react-icons/si";
 import { useRef, useEffect } from 'react';
 import { useMatch } from 'react-router-dom';
 
@@ -133,7 +134,8 @@ function SB({ visible, servicesConfig }) {
     VirusTotal: SiVirustotal,
     Confluent: SiApachekafka,
     Netlify: SiNetlify,
-    Contentful: SiContentful
+    Contentful: SiContentful,
+    DenoDeploy: SiDeno
   };
 
   return (

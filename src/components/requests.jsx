@@ -741,6 +741,14 @@ async function makeUniversalRequest(
         },
       });
       break;
+    case 'DenoDeploy':
+      response = await fetch(endpointURL, {
+        method: requestMethod,
+        headers: {
+          Authorization: `Bearer ${inputData.api_token}`,
+        },
+      });
+      break;
     case 'Contentful':
       response = await fetch(endpointURL, {
         method: requestMethod,

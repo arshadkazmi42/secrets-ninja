@@ -3048,5 +3048,23 @@
       }
     },
     "api_documentation_page": "https://www.contentful.com/developers/docs/references/content-management-api/"
+  },
+  "DenoDeploy": {
+    "endpoints": {
+      "user": {
+        "label": "User",
+        "curl": "curl -H \"Authorization: Bearer <api_token>\" https://api.deno.com/user",
+        "request_url": "https://api.deno.com/user",
+        "request_method": "GET"
+      }
+    },
+    "input_fields": {
+      "api_token": {
+        "type": "text",
+        "label": "Enter Deno Deploy API Token",
+        "placeholder": "xxxxx"
+      }
+    },
+    "api_documentation_page": "https://deno.com/deploy/docs"
   }
 }
