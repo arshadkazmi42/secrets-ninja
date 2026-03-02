@@ -425,6 +425,12 @@
         "curl": "curl -X GET https://app.launchdarkly.com/api/v2/projects -H 'Authorization: api_key <api_key>'",
         "request_url": "https://app.launchdarkly.com/api/v2/projects",
         "request_method": "GET"
+      },
+      "tokens": {
+        "label": "Tokens",
+        "curl": "curl -X GET https://app.launchdarkly.com/api/v2/tokens -H 'Authorization: api_key <api_key>'",
+        "request_url": "https://app.launchdarkly.com/api/v2/tokens",
+        "request_method": "GET"
       }
     },
     "input_fields": {
